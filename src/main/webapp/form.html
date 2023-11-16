@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+<h2>Sample Form</h2>
+<form action="form_ok.jsp" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required><br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br>
+
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required><br>
+
+    <label for="hobbies">Hobbies):</label>
+    <input type="text" id="hobbies" name="hobbies" required><br>
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br>
+
+    <label for="subscribe">Subscribe to:</label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="file">Upload a file:</label>
+    <input type="file" id="file" name="file"><br>
+
+    <label for="date">Select a date:</label>
+    <input type="date" id="date" name="date" required><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
